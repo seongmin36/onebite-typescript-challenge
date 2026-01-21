@@ -5,6 +5,7 @@
     "outDir": "dist", // 컴파일된 파일을 dist 폴더에 저장
     "strict": true, // 엄격한 타입 검사를 사용
     "moduleDetection": "force", // ts가 각각의 파일을 모듈로 간주하도록 강제
+    "skipLibCheck": true, // 라이브러리 타입 체크를 건너뜀
   },
   "ts-node": {
     "esm": true, // ts-node를 사용할 때 esm 모듈 시스템을 사용
