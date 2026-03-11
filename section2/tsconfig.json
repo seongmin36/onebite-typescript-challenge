@@ -4,7 +4,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "outDir": "dist",
-    "strict": true,
+    "strict": true, // strict는 strictNullChecks의 상위 옵션
+    // "strictNullChecks": false, // 엄격한 null 검사 허용 X
     "moduleDetection": "force", // 자동으로 모든 타입스크립트 파일들을 개별 모듈로 설정
   },
   "ts-node": {
